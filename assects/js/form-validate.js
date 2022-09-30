@@ -19,24 +19,24 @@ function valid_datas( f ){
 		 jQuery.ajax({
 			url: 'mail.php',
 			type: 'post',
-			data: jQuery('form#NobleStudio-contact').serialize(),
+			data: jQuery('form#createch-contact').serialize(),
 			complete: function(data) {
 				jQuery('#form_status').html(data.responseText);
-				jQuery('#NobleStudio-contact').find('input,textarea').attr({value:''});
-				jQuery('#NobleStudio-contact').css({opacity:1});
-				jQuery('#NobleStudio-contact').remove();
+				jQuery('#createch-contact').find('input,textarea').attr({value:''});
+				jQuery('#createch-contact').css({opacity:1});
+				jQuery('#createch-contact').remove();
 			}
 		});
 		jQuery('#form_status').html('<span class="loading">Sending your message...</span>');
-		jQuery('#NobleStudio-contact').animate({opacity:0.3});
-		jQuery('#NobleStudio-contact').find('input,textarea,button').css('border','none').attr({'disabled':''});
+		jQuery('#createch-contact').animate({opacity:0.3});
+		jQuery('#createch-contact').find('input,textarea,button').css('border','none').attr({'disabled':''});
 	}
 	
 	return false;
 }
 
 function notice( f ){
-	jQuery('#NobleStudio-contact').find('input,textarea').css('border','none');
+	jQuery('#createch-contact').find('input,textarea').css('border','none');
 	f.style.border = '1px solid red';
 	f.focus();
 }

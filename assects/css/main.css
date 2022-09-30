@@ -1,8 +1,8 @@
 /*
-Template Name: NobleStudio - Responsive Bootstrap4 Gallery Template
+Template Name: createch - Responsive Bootstrap4 Gallery Template
 Template URI: 
 Description: Bootstrap template for fruits or any other kind of shop
-Author: noblestudios
+Author: createch
 Author URI: https://imransdesign.com/
 Version: 1.0
 */
@@ -90,21 +90,21 @@ html {
   }
   
   h2, .h2 {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 700;
     line-height: 3.25rem;
   }
   
   @media only screen and (max-width: 767.96px) {
     h2, .h2 {
-      font-size: 2.5rem;
+      font-size: 2rem;
       line-height: 2.75rem;
     }
   }
   
   @media only screen and (max-width: 575.96px) {
     h2, .h2 {
-      font-size: 4rem;
+      font-size: 3.5rem;
       line-height: 4rem;
     }
   }
@@ -352,6 +352,7 @@ html {
   
   .pb-80 {
     padding-bottom: 80px;
+    margin-bottom: 3rem;
   }
   
   @media only screen and (max-width: 767.96px) {
@@ -1480,11 +1481,11 @@ html {
   }
   
   .homepage-bg-2 {
-    background-image: url(../img/hero-bg-2.jpg);
+    background-image: url(../img/hero4-bg.jpg);
   }
   
   .homepage-bg-3 {
-    background-image: url(../img/hero-bg-3.jpg);
+    background-image: url(../img/hero-bg5.jpeg);
   }
   
   .homepage-slider {
@@ -1524,7 +1525,7 @@ html {
     top: 0;
     width: 100%;
     height: 100%;
-    background-color: #051922;
+    background-color: #00327cd4;
     content: "";
     z-index: -1;
     opacity: 0.7;
@@ -2188,11 +2189,11 @@ html {
   ----------------------------------------------------------------------------- */
   .feature-bg {
     position: relative;
-    margin: 150px 0;
+    margin: 120px 0;
   }
   
   .feature-bg:after {
-    background-image: url(/assects/img/feature-bg.jpg);
+    background-image: url(/assects/img/hero3-bg.jpg);
     position: absolute;
     right: 0;
     top: 0;
@@ -2789,4 +2790,119 @@ html {
     vertical-align: middle;
     width: 100%;
   }
-  
+  .benefits-resources {
+    background: #f8f8f8;
+    padding: 22px 25px 5px;
+    margin-left: 15px;
+    position: relative;
+    z-index: 100;
+    margin-top: 4rem;
+  }
+  @media only screen and (min-width: 530px) and (max-width: 949px) {
+    .benefits-resources {
+      margin-left: 0;
+      margin-top: 4rem;
+    }
+  }
+  @media only screen and (max-width: 529px) {
+    .benefits-resources {
+      margin-left: 0;
+      margin-top: 4rem;
+    }
+  }
+  .benefits-resources h2 {
+    font-size: 1.875rem;
+    margin-bottom: 1.2rem;
+  }
+  .benefits-resources p {
+    margin-bottom: 1.375rem;
+  }
+  .benefits-resources .quick-stats li {
+    display: inline-block;
+    margin-right: 30px;
+  }
+  .benefits-resources .quick-stats li img {
+    height: 23px;
+  }
+  .benefits-resources .quick-stats li p {
+    font-size: 0.875rem;
+    text-align: center;
+  }
+  .benefits-resources .quick-stats .activities {
+    color: #ff6600;
+  }
+  .benefits-resources .quick-stats .weekdays {
+    color: #00bb8d;
+  }
+  .benefits-resources .quick-stats .saturday {
+    color: #fea70f;
+  }
+  .benefits-resources .quick-stats .sunday {
+    color: #2dd5f5;
+  }
+  .benefits-avatar {
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 10px;
+    z-index: 80;
+    left: -118px;
+  }
+  @media only screen and (max-width: 529px) {
+    .benefits-avatar {
+      display: none;
+    }
+  }
+  .benefits-activities {
+    background: #ffffff00;
+    margin-top: 4rem;
+    margin-right: 15px;
+    padding: 1.5rem 1.5rem 3.5rem;
+    box-shadow: 0px 1px 4px rgba(13, 14, 30, 0.05);
+  }
+  @media only screen and (min-width: 530px) and (max-width: 949px) {
+    .benefits-activities {
+      margin-top: 10px;
+      margin-right: 0;
+    }
+  }
+  @media only screen and (max-width: 529px) {
+    .benefits-activities {
+      margin-top: 10px;
+      margin-right: 0px;
+    }
+  }
+  .benefits-activities h2 {
+    font-size: 1.125rem;
+    font-weight: 700;
+    margin-bottom: 3rem;
+    text-align: center;
+  }
+  .benefits-activities .activity-grid {
+    display: grid;
+    grid-template-rows: repeat(2, 70px);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+  }
+  @media only screen and (max-width: 529px) {
+    .benefits-activities .activity-grid {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  .benefits-activities .activity-grid img {
+    height: 25px;
+  }
+  @media only screen and (max-width: 529px) {
+    .benefits-activities .activity-grid img {
+      height: 35px;
+    }
+  }
+  .benefits-activities .activity-grid > div {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  .benefits-activities .activity-grid > div p {
+    margin-top: 5px;
+    font-size: 12px;
+  }

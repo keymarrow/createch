@@ -38,7 +38,7 @@
 	$body = ob_get_contents();
 	ob_end_clean();
 	
-	$to = 'support@NobleStudio.com';
+	$to = 'support@createch.com';
 
 	$s = mail($to,$subject,$body,$headers,"-t -i -f $from");
 
