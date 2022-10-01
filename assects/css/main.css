@@ -112,7 +112,7 @@ html {
   h3, .h3 {
     font-size: 2rem;
     font-weight: 700;
-    line-height: 4rem;
+    line-height: 2rem;
   }
   
   @media only screen and (max-width: 575.96px) {
@@ -331,12 +331,12 @@ html {
   }
   
   .mb-150 {
-    margin-bottom: 60px;
+    margin-bottom: 0;
   }
   
   @media only screen and (max-width: 767.96px) {
     .mb-150 {
-      margin-bottom: 100px;
+      margin-bottom: 0px;
     }
   }
   
@@ -1418,7 +1418,7 @@ html {
   .hero-text h1 {
     font-size: 64px;
     font-weight: 700;
-    line-height: 1.3;
+    line-height: 1;
     color: #fff;
   }
   
@@ -2209,11 +2209,11 @@ html {
   }
   
   .team-bg-1 {
-    background-image: url(../img/team/team-1.jpg);
+    background-image: url(../img/team/team-3.jpg);
   }
   
   .team-bg-2 {
-    background-image: url(../img/team/team-2.jpg);
+    background-image: url(../img/team/team-3.jpg);
   }
   
   .team-bg-3 {
@@ -2221,11 +2221,11 @@ html {
   }
   
   .team-bg-4 {
-    background-image: url(../img/team/team-4.jpg);
+    background-image: url(../img/team/team-3.jpg);
   }
   
   .team-bg {
-    height: 400px;
+    height: 20rem;
     background-size: cover;
     background-position: center;
     border-radius: 5px;
@@ -2459,9 +2459,9 @@ html {
   
   p.product-price {
     font-family: 'Poppins', sans-serif;
-    font-size: 30px;
-    font-weight: 700;
-    margin-bottom: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    margin: 0 2rem 0 ;
   }
   
   p.product-price span {
@@ -2469,6 +2469,18 @@ html {
     opacity: 0.8;
     font-size: 15px;
     font-weight: 400;
+  }
+
+    .robotics{
+    background-color: #00bb8d;
+  }
+
+  .science{
+    background-color: #fea70f;
+  }
+
+  .coding{
+    background-color: #2dd5f5;
   }
   
   a.cart-btn {
