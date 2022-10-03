@@ -2193,7 +2193,7 @@ html {
   }
   
   .feature-bg:after {
-    background-image: url(/assects/img/hero3-bg.jpg);
+    background-image: url(assects/img/hero3-bg.jpg);
     position: absolute;
     right: 0;
     top: 0;
