@@ -31,7 +31,7 @@ html {
   }
   
   body img {
-    max-width: 100%;
+    max-width: 170%;
     border-radius: .3rem;
   }
   
@@ -2457,7 +2457,7 @@ html {
     margin-bottom: 10px;
   }
   
-  p.product-price {
+  p.product-price{
     font-family: 'Poppins', sans-serif;
     font-size: 18px;
     font-weight: 500;
@@ -2917,4 +2917,80 @@ html {
   .benefits-activities .activity-grid > div p {
     margin-top: 5px;
     font-size: 12px;
+  }
+  .donate-btn{
+    background-color: #0000005b;
+    border-radius: .5rem;
+  }
+  @media only screen and (min-width: 530px) and (max-width: 949px) {
+    .categories {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+  @media only screen and (max-width: 529px) {
+    .categories {
+      grid-template-columns: 1fr;
+      grid-template-rows: max-content;
+    }
+  }
+  .categories .cat-cards {
+    color: #ffffff!important;
+    padding: 1.562rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -o-border-radius: 3px;
+    -ms-border-radius: 3px;
+    -khtml-border-radius: 3px;
+    border-radius: 3px;
+    position: relative;
+    overflow: hidden;
+  }
+  .categories .cat-cards .bg-icon {
+    position: absolute;
+    z-index: 5;
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    opacity: .7;
+    bottom: 5px;
+    right: -41px;
+  }
+  .categories .cat-cards p {
+    font-size: 1rem;
+  }
+  .categories .cat-cards a {
+    color: #ffffff;
+    text-transform: uppercase;
+  } 
+  .categories .cat-cards .bg-icon {
+    position: absolute;
+    z-index: 5;
+    height: 100px;
+    width: 100px;
+    background-repeat: no-repeat;
+    opacity: .7;
+    bottom: 5px;
+    right: -41px;
+  }
+  .categories .cat-cards p {
+    font-size: 1rem;
+  }
+  .categories .cat-cards a {
+    color: #ffffff;
+    text-transform: uppercase;
+  }
+  .categories .rob {
+    background-image: url(../svg/robotics.svg);
+  }
+  .categories .mat {
+    background-image: url(../svg/maths.svg);
+  }
+  .categories .eng {
+    background-image: url(../svg/biology.svg);
+  }
+  .categories .phy {
+    background-image: url(../svg/physics.svg);
   }
