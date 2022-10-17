@@ -2193,7 +2193,7 @@ html {
   }
   
   .feature-bg:after {
-    background-image: url(assects/img/hero3-bg.jpg);
+    background-image: url(/assects/img/hero3-bg.jpg);
     position: absolute;
     right: 0;
     top: 0;
@@ -2209,15 +2209,15 @@ html {
   }
   
   .team-bg-1 {
-    background-image: url(../img/team/team-3.jpg);
+    background-image: url(../img/team/team2.jpeg);
   }
   
   .team-bg-2 {
-    background-image: url(../img/team/team-3.jpg);
+    background-image: url(../img/team/team2.jpeg);
   }
   
   .team-bg-3 {
-    background-image: url(../img/team/team-3.jpg);
+    background-image: url(../img/team/team2.jpeg);
   }
   
   .team-bg-4 {
