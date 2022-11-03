@@ -2101,7 +2101,7 @@ html {
   }
 
   .abt2-bg {
-    background-image: url(/assects/img/abt2.jpeg);
+    background-image: url(../img/abt2.jpeg);
     height: 100%;
     width: 100%;
     background-size: cover;
